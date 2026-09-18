@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Endpoint: String {
+enum MovieEndpoint: String {
     case populatMovie = "movie/popular"
     case nowPlayingMovie = "movie/now_playing"
     case topRatedMovie = "movie/top_rated"
